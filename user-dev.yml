@@ -1,0 +1,28 @@
+server: 
+  port: 9008
+spring: 
+  application:  
+    name: tensquare-user #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.163.134:3306/tensquare_user?characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa: 
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 192.168.163.134
+  rabbitmq:
+    host: 192.168.163.134
+
+jwt:
+  config:
+    key: mykey
+    ttl: 360000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true #把自己的ip地址报告给Eureka(远程需要,本地测试没有问题)

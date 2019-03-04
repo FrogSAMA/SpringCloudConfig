@@ -1,0 +1,15 @@
+server:
+  port: 9009
+
+spring:
+  application:
+    name: tensquare-sms
+  rabbitmq:
+    host: 192.168.163.134
+
+aliyun:
+  sms:
+    accessKeyId: LTAIzHeZa8Ai6C0j
+    accessKeySecret: mQNjtbRq72zOxy254AbXwZ5ytGj3uP
+    template_code: SMS_126865257
+    sign_name: 黑马三国的包子
