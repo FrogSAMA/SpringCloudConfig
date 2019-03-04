@@ -26,4 +26,4 @@ eureka:
     prefer-ip-address: true #把自己的ip地址报告给Eureka(远程需要,本地测试没有问题)
     
 myconfig:
-  ip: 8.8.8.8
+  ip: 8.8.4.4
