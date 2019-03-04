@@ -10,8 +10,8 @@ spring:
       #cluster-nodes: 127.0.0.1:9300
       cluster-nodes: 192.168.163.134:9300
       
-    rabbitmq:
-    host: 192.168.163.134
+  rabbitmq:
+  host: 192.168.163.134
 
 eureka:
   client:
